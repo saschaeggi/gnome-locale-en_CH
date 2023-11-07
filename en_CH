@@ -10,16 +10,16 @@ escape_char /
 
 LC_IDENTIFICATION
 title      "English locale for Switzerland"
-source     "Clement Baconnier"
+source     "Sascha Eggenberger"
 address    ""
-contact    "Clement Baconnier"
-email      "clement@baconnier.ch"
+contact    "Sascha Eggenberger"
+email      "hello@saschaeggenberger.com"
 tel        ""
 fax        ""
 language   "English"
 territory  "Switzerland"
-revision   "0.1"
-date       "2019-03-08"
+revision   "0.2"
+date       "2023-11-07"
 
 category "i18n:2012";LC_IDENTIFICATION
 category "i18n:2012";LC_CTYPE
@@ -36,7 +36,7 @@ category "i18n:2012";LC_MEASUREMENT
 END LC_IDENTIFICATION
 
 LC_CTYPE
-copy "fr_CH"
+copy "de_CH"
 END LC_CTYPE
 
 LC_COLLATE
@@ -48,11 +48,11 @@ copy "en_US"
 END LC_MESSAGES
 
 LC_MONETARY
-copy  "fr_CH"
+copy  "de_CH"
 END LC_MONETARY
 
 LC_NUMERIC
-copy "fr_CH"
+copy "de_CH"
 END LC_NUMERIC
 
 LC_TIME
@@ -83,12 +83,13 @@ mon         "January";/
             "November";/
             "December"
 
-d_t_fmt "%a %d %b %Y %T %Z"
-d_fmt   "%d. %m. %y"
+d_t_fmt  "%a %d %b %Y %T"
+date_fmt "%a %d %b %Y %T %Z"
+d_fmt   "%d.%m.%Y"
 t_fmt   "%T"
 am_pm   "";""
 t_fmt_ampm ""
-date_fmt "%A %-e %B %Y, %H:%M:%S (UTC%z)"
+
 week 7;19971130;4
 first_weekday 2
 END LC_TIME
@@ -100,7 +101,7 @@ END LC_PAPER
 LC_TELEPHONE
 tel_int_fmt    "+%c %a %l"
 int_prefix     "41"
-int_select  "00"
+int_select     "00"
 END LC_TELEPHONE
 
 LC_MEASUREMENT
@@ -120,7 +121,7 @@ country_num 756
 country_car "CH"
 country_post "CH"
 country_isbn "979-10"
-lang_name ""
+lang_name "English"
 lang_ab      "en"
 lang_term    "eng"
 lang_lib  "eng"
